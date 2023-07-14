@@ -1,0 +1,45 @@
+.app__navbar {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 1rem 2rem;
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  
+  position: fixed;
+  z-index: 2;
+}
+
+
+.app__navbar-actions {
+  display: flex;
+  gap: 30px;
+
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    span {
+      font-size: 11px;
+      font-weight: 600;
+    }
+
+    svg {
+      font-size: 20px;
+    }
+  }
+}
+
+.app__navbar-logo{
+  h1{
+    cursor: pointer;
+  }
+}
+
