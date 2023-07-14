@@ -13,6 +13,8 @@
     list-style: none;
     display: flex;
     gap: 5rem;
+    overflow: auto;
+    align-items: center;
 
     li {
       font-size: 14px;
@@ -24,6 +26,10 @@
       &:hover {
         color: var(--primary-color);
       }
+    }
+
+    &::-webkit-scrollbar {
+      display: none;
     }
   }
 }
