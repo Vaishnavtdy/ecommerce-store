@@ -7,6 +7,7 @@
   height: 100%;
   width: 100%;
   transition: all 0.3s ease-in-out;
+  overflow: hidden;
 
   img {
     object-fit: contain;
@@ -23,6 +24,7 @@
     width: 100%;
     overflow: hidden;
     text-overflow: ellipsis;
+    max-width: 300px;
     display: -webkit-box;
     -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;
@@ -35,6 +37,7 @@
     text-align: center;
 
     width: 100%;
+    max-width: 300px;
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
